@@ -1,0 +1,16 @@
+<html>
+<head>
+  <title>Foo</title>
+</head>
+
+<body>
+	{$foo}
+
+	<script id="template1" type="text/html">
+		{$foo}
+	</script>
+	<script>
+		document.write(document.getElementById('template1').text);
+	</script>
+</body>
+</html>

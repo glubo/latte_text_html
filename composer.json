@@ -1,0 +1,6 @@
+{
+    "name": "sykop5am/latte_text_html",
+    "require": {
+        "latte/latte": "*"
+    }
+}
